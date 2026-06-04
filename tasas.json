@@ -1,0 +1,542 @@
+[
+  {
+    "id": 0,
+    "date": "2026-04-22 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 482.7586
+  },
+  {
+    "id": 0,
+    "date": "2026-04-23 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 483.3379
+  },
+  {
+    "id": 0,
+    "date": "2026-04-24 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 483.8695
+  },
+  {
+    "id": 0,
+    "date": "2026-04-27 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 484.7404
+  },
+  {
+    "id": 0,
+    "date": "2026-04-28 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 485.2251
+  },
+  {
+    "id": 0,
+    "date": "2026-04-29 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 486.1955
+  },
+  {
+    "id": 0,
+    "date": "2026-04-30 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 487.1192
+  },
+  {
+    "id": 0,
+    "date": "2026-05-04 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 489.5547
+  },
+  {
+    "id": 0,
+    "date": "2026-05-05 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 490.0442
+  },
+  {
+    "id": 0,
+    "date": "2026-05-06 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 493.3765
+  },
+  {
+    "id": 0,
+    "date": "2026-05-07 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 496.8301
+  },
+  {
+    "id": 0,
+    "date": "2026-05-08 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 499.8608
+  },
+  {
+    "id": 0,
+    "date": "2026-05-11 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 500.4606
+  },
+  {
+    "id": 0,
+    "date": "2026-05-12 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 504.9146
+  },
+  {
+    "id": 0,
+    "date": "2026-05-13 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 508.6004
+  },
+  {
+    "id": 0,
+    "date": "2026-05-14 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 510.7873
+  },
+  {
+    "id": 0,
+    "date": "2026-05-15 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 515.18
+  },
+  {
+    "id": 0,
+    "date": "2026-05-19 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 517.9619
+  },
+  {
+    "id": 0,
+    "date": "2026-05-20 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 520.9142
+  },
+  {
+    "id": 0,
+    "date": "2026-05-21 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 523.675
+  },
+  {
+    "id": 0,
+    "date": "2026-05-22 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 526.8694
+  },
+  {
+    "id": 0,
+    "date": "2026-05-25 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 530.5047
+  },
+  {
+    "id": 0,
+    "date": "2026-05-26 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 535.3853
+  },
+  {
+    "id": 0,
+    "date": "2026-05-27 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 540.0431
+  },
+  {
+    "id": 0,
+    "date": "2026-05-28 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 544.5794
+  },
+  {
+    "id": 0,
+    "date": "2026-05-29 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 549.3716
+  },
+  {
+    "id": 0,
+    "date": "2026-06-01 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 554.4258
+  },
+  {
+    "id": 0,
+    "date": "2026-06-02 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 557.9741
+  },
+  {
+    "id": 0,
+    "date": "2026-06-03 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 558.6436
+  },
+  {
+    "id": 0,
+    "date": "2026-06-04 00:00",
+    "rateType": "BCV_USD",
+    "rateValue": 560.3753
+  },
+  {
+    "id": 0,
+    "date": "2026-04-22 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 567.70963084
+  },
+  {
+    "id": 0,
+    "date": "2026-04-23 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 567.01335724
+  },
+  {
+    "id": 0,
+    "date": "2026-04-24 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 566.84344186
+  },
+  {
+    "id": 0,
+    "date": "2026-04-27 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 567.40318041
+  },
+  {
+    "id": 0,
+    "date": "2026-04-28 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 569.29520082
+  },
+  {
+    "id": 0,
+    "date": "2026-04-29 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 569.42730764
+  },
+  {
+    "id": 0,
+    "date": "2026-04-30 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 569.76384347
+  },
+  {
+    "id": 0,
+    "date": "2026-05-04 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 574.19381208
+  },
+  {
+    "id": 0,
+    "date": "2026-05-05 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 574.03777588
+  },
+  {
+    "id": 0,
+    "date": "2026-05-06 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 578.38233338
+  },
+  {
+    "id": 0,
+    "date": "2026-05-07 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 583.86976521
+  },
+  {
+    "id": 0,
+    "date": "2026-05-08 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 588.09622841
+  },
+  {
+    "id": 0,
+    "date": "2026-05-11 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 589.27233807
+  },
+  {
+    "id": 0,
+    "date": "2026-05-12 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 595.05195439
+  },
+  {
+    "id": 0,
+    "date": "2026-05-13 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 596.60352721
+  },
+  {
+    "id": 0,
+    "date": "2026-05-14 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 598.12171255
+  },
+  {
+    "id": 0,
+    "date": "2026-05-15 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 601.4520428
+  },
+  {
+    "id": 0,
+    "date": "2026-05-19 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 602.18768455
+  },
+  {
+    "id": 0,
+    "date": "2026-05-20 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 604.15628916
+  },
+  {
+    "id": 0,
+    "date": "2026-05-21 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 609.34299325
+  },
+  {
+    "id": 0,
+    "date": "2026-05-22 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 610.3781999
+  },
+  {
+    "id": 0,
+    "date": "2026-05-25 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 615.50216303
+  },
+  {
+    "id": 0,
+    "date": "2026-05-26 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 623.49901267
+  },
+  {
+    "id": 0,
+    "date": "2026-05-27 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 627.70289599
+  },
+  {
+    "id": 0,
+    "date": "2026-05-28 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 633.48198705
+  },
+  {
+    "id": 0,
+    "date": "2026-05-29 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 640.14426946
+  },
+  {
+    "id": 0,
+    "date": "2026-06-01 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 645.67874242
+  },
+  {
+    "id": 0,
+    "date": "2026-06-02 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 648.24314989
+  },
+  {
+    "id": 0,
+    "date": "2026-06-03 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 650.5572315
+  },
+  {
+    "id": 0,
+    "date": "2026-06-04 00:00",
+    "rateType": "BCV_EUR",
+    "rateValue": 650.50606325
+  },
+  {
+    "id": 0,
+    "date": "2026-05-06 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 653.700875
+  },
+  {
+    "id": 0,
+    "date": "2026-05-07 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 654.25
+  },
+  {
+    "id": 0,
+    "date": "2026-05-08 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 649.10025
+  },
+  {
+    "id": 0,
+    "date": "2026-05-09 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 649.53375
+  },
+  {
+    "id": 0,
+    "date": "2026-05-10 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 650.38925
+  },
+  {
+    "id": 0,
+    "date": "2026-05-11 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 663.880875
+  },
+  {
+    "id": 0,
+    "date": "2026-05-12 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 667.75
+  },
+  {
+    "id": 0,
+    "date": "2026-05-13 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 671.176625
+  },
+  {
+    "id": 0,
+    "date": "2026-05-14 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 679.50175
+  },
+  {
+    "id": 0,
+    "date": "2026-05-15 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 683.318625
+  },
+  {
+    "id": 0,
+    "date": "2026-05-16 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 694.5235
+  },
+  {
+    "id": 0,
+    "date": "2026-05-17 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 711.15025
+  },
+  {
+    "id": 0,
+    "date": "2026-05-18 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 718.8495
+  },
+  {
+    "id": 0,
+    "date": "2026-05-19 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 706.81275
+  },
+  {
+    "id": 0,
+    "date": "2026-05-20 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 710.12375
+  },
+  {
+    "id": 0,
+    "date": "2026-05-21 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 711.575
+  },
+  {
+    "id": 0,
+    "date": "2026-05-22 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 715.928125
+  },
+  {
+    "id": 0,
+    "date": "2026-05-23 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 720.542375
+  },
+  {
+    "id": 0,
+    "date": "2026-05-24 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 718.73375
+  },
+  {
+    "id": 0,
+    "date": "2026-05-25 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 729.92725
+  },
+  {
+    "id": 0,
+    "date": "2026-05-26 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 736.5475
+  },
+  {
+    "id": 0,
+    "date": "2026-05-27 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 735.166625
+  },
+  {
+    "id": 0,
+    "date": "2026-05-28 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 744.05375
+  },
+  {
+    "id": 0,
+    "date": "2026-05-29 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 730.30275
+  },
+  {
+    "id": 0,
+    "date": "2026-05-30 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 730.24975
+  },
+  {
+    "id": 0,
+    "date": "2026-05-31 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 733.101
+  },
+  {
+    "id": 0,
+    "date": "2026-06-01 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 732.49
+  },
+  {
+    "id": 0,
+    "date": "2026-06-02 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 733.450125
+  },
+  {
+    "id": 0,
+    "date": "2026-06-03 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 739.17425
+  },
+  {
+    "id": 0,
+    "date": "2026-06-04 00:00",
+    "rateType": "BINANCE_USDT",
+    "rateValue": 740.118625
+  }
+]
