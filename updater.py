@@ -26,7 +26,7 @@ def fetch_binance_p2p(trade_type):
     payload = {
         "fiat": "VES",
         "page": 1,
-        "rows": 10,
+        "rows": 20,
         "tradeType": trade_type,
         "asset": "USDT",
         "countries": [],
