@@ -26,7 +26,7 @@ def fetch_binance_p2p(trade_type):
     payload = {
         "fiat": "VES",
         "page": 1,
-        "rows": 50,
+        "rows": 10,
         "tradeType": trade_type,
         "asset": "USDT",
         "countries": [],
@@ -109,9 +109,7 @@ def main():
     paralelo_usd_data = fetch_dolar_api("https://ve.dolarapi.com/v1/historicos/dolares", ["paralelo"])
     for item in paralelo_usd_data:
         date_formatted = f"{item['fecha'][:10]} 00:00"
-        compra = round(item["promedio"] * 0.995, 2)
-        venta = round(item["promedio"] * 1.005, 2)
-        all_rates.append(build_exchange_rate("BINANCE_USDT", date_formatted, item["promedio"], buy_rate=compra, sell_rate=venta))
+        all_rates.append(build_exchange_rate("BINANCE_USDT", date_formatted, item["promedio"]))
         
     # 4. BINANCE USDT Current
     buy_prices = fetch_binance_p2p("BUY")
