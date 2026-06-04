@@ -70,6 +70,8 @@ def build_exchange_rate(rate_type, date_str, rate_value, buy_rate=None, sell_rat
 
 def main():
     all_rates = []
+    caracas_time = get_caracas_time()
+    current_hour_str = caracas_time.strftime("%Y-%m-%d %H:00")
     
     # 1. BCV USD History
     bcv_usd_data = fetch_dolar_api("https://ve.dolarapi.com/v1/historicos/dolares", ["oficial", "bcv"])
@@ -77,11 +79,31 @@ def main():
         date_formatted = f"{item['fecha'][:10]} 00:00"
         all_rates.append(build_exchange_rate("BCV_USD", date_formatted, item["promedio"]))
         
+    # Obtener el valor actual exacto (por si el histórico tiene un leve retraso)
+    try:
+        current_usd = requests.get("https://ve.dolarapi.com/v1/dolares", timeout=10).json()
+        oficial_usd = next((x for x in current_usd if x.get("fuente") in ["oficial", "bcv"]), None)
+        if oficial_usd:
+            # Reemplazar si ya existe para hoy o agregarlo como el valor más nuevo
+            all_rates = [r for r in all_rates if not (r["rateType"] == "BCV_USD" and r["date"][:10] == current_hour_str[:10])]
+            all_rates.append(build_exchange_rate("BCV_USD", current_hour_str, oficial_usd["promedio"]))
+    except:
+        pass
+
     # 2. BCV EUR History
     bcv_eur_data = fetch_dolar_api("https://ve.dolarapi.com/v1/historicos/euros", ["oficial", "bcv"])
     for item in bcv_eur_data:
         date_formatted = f"{item['fecha'][:10]} 00:00"
         all_rates.append(build_exchange_rate("BCV_EUR", date_formatted, item["promedio"]))
+        
+    try:
+        current_eur = requests.get("https://ve.dolarapi.com/v1/euros", timeout=10).json()
+        oficial_eur = next((x for x in current_eur if x.get("fuente") in ["oficial", "bcv"]), None)
+        if oficial_eur:
+            all_rates = [r for r in all_rates if not (r["rateType"] == "BCV_EUR" and r["date"][:10] == current_hour_str[:10])]
+            all_rates.append(build_exchange_rate("BCV_EUR", current_hour_str, oficial_eur["promedio"]))
+    except:
+        pass
         
     # 3. BINANCE USDT History (Using Paralelo)
     paralelo_usd_data = fetch_dolar_api("https://ve.dolarapi.com/v1/historicos/dolares", ["paralelo"])
@@ -90,8 +112,6 @@ def main():
         all_rates.append(build_exchange_rate("BINANCE_USDT", date_formatted, item["promedio"]))
         
     # 4. BINANCE USDT Current
-    # tradeType="BUY" -> makers are selling -> Venta rate (higher)
-    # tradeType="SELL" -> makers are buying -> Compra rate (lower)
     buy_prices = fetch_binance_p2p("BUY")
     sell_prices = fetch_binance_p2p("SELL")
     
@@ -103,9 +123,7 @@ def main():
         final_compra = round(compra_rate, 2)
         final_venta = round(venta_rate, 2)
         
-        caracas_time = get_caracas_time()
-        current_hour_str = caracas_time.strftime("%Y-%m-%d %H:00")
-        
+        all_rates = [r for r in all_rates if not (r["rateType"] == "BINANCE_USDT" and r["date"][:10] == current_hour_str[:10])]
         all_rates.append(build_exchange_rate(
             "BINANCE_USDT", 
             current_hour_str, 
