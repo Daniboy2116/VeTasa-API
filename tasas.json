@@ -537,6 +537,8 @@
     "id": 0,
     "date": "2026-06-04 00:00",
     "rateType": "BINANCE_USDT",
-    "rateValue": 740.118625
+    "rateValue": 741.66,
+    "buyRate": 741.69,
+    "sellRate": 741.63
   }
 ]
