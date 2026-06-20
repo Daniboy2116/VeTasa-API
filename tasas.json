@@ -181,7 +181,7 @@
   },
   {
     "id": 0,
-    "date": "2026-06-20 01:00",
+    "date": "2026-06-20 04:00",
     "rateType": "BCV_USD",
     "rateValue": 607.3919
   },
@@ -367,7 +367,7 @@
   },
   {
     "id": 0,
-    "date": "2026-06-20 01:00",
+    "date": "2026-06-20 04:00",
     "rateType": "BCV_EUR",
     "rateValue": 697.36486214
   },
@@ -547,10 +547,10 @@
   },
   {
     "id": 0,
-    "date": "2026-06-20 01:00",
+    "date": "2026-06-20 04:00",
     "rateType": "BINANCE_USDT",
-    "rateValue": 808.11,
-    "buyRate": 807.05,
-    "sellRate": 809.16
+    "rateValue": 807.81,
+    "buyRate": 804.96,
+    "sellRate": 810.66
   }
 ]
