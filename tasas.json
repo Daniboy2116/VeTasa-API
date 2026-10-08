@@ -169,15 +169,15 @@
   },
   {
     "id": 0,
-    "date": "2026-10-08 00:00",
+    "date": "2026-10-07 00:00",
     "rateType": "BCV_USD",
-    "rateValue": 874.7321
+    "rateValue": 873.867
   },
   {
     "id": 0,
-    "date": "2026-10-07 22:00",
+    "date": "2026-10-08 05:00",
     "rateType": "BCV_USD",
-    "rateValue": 873.867
+    "rateValue": 874.7321
   },
   {
     "id": 0,
@@ -349,15 +349,15 @@
   },
   {
     "id": 0,
-    "date": "2026-10-08 00:00",
+    "date": "2026-10-07 00:00",
     "rateType": "BCV_EUR",
-    "rateValue": 979.0788922
+    "rateValue": 984.26261811
   },
   {
     "id": 0,
-    "date": "2026-10-07 22:00",
+    "date": "2026-10-08 05:00",
     "rateType": "BCV_EUR",
-    "rateValue": 984.26261811
+    "rateValue": 979.0788922
   },
   {
     "id": 0,
@@ -529,16 +529,16 @@
   },
   {
     "id": 0,
-    "date": "2026-10-08 00:00",
+    "date": "2026-10-07 00:00",
     "rateType": "BINANCE_USDT",
-    "rateValue": 1015.601488
+    "rateValue": 1007.740545
   },
   {
     "id": 0,
-    "date": "2026-10-07 22:00",
+    "date": "2026-10-08 05:00",
     "rateType": "BINANCE_USDT",
-    "rateValue": 1020.7,
-    "buyRate": 1020.76,
-    "sellRate": 1020.65
+    "rateValue": 1015.84,
+    "buyRate": 1013.98,
+    "sellRate": 1017.69
   }
 ]
